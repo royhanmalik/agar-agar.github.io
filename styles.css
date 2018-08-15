@@ -2,25 +2,10 @@
     box-sizing: border-box;
 }
 #canvas {
-    height: 800px;
-    width: 800px;
+    height: 627px;
+    width: 604px;
     border: 5px solid green;
     background-color: black;
-    margin: auto;
-}
-
-#snake {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    margin: 270px;
-}
-
-#eat {
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    border-radius: 50%;
     margin: auto;
 }
 
@@ -29,5 +14,33 @@
     width: 100%;
     background-color: green;
     margin: auto;
-    margin-top: -21px;
+    margin-top: -22px;
+}
+
+.box {
+    float: left;
+    width: 99px;
+    height: 99px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.eat {
+    float: left;
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    border-radius: 50%;
+    margin-left: 38px;
+    margin-top: 37px;
+}
+
+#snake {
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-left: 34px;
+    margin-top: 37px;
+    border-radius: 100%;
 }
